@@ -1,4 +1,4 @@
-# Creating a Ubuntu virtual machine using Terraform on Azure.
+# Creating a Ubuntu VM using Terraform on Azure.
 
 
 ### Define Provider
