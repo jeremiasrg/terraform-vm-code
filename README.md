@@ -1,7 +1,7 @@
 # Creating a Ubuntu VM using Terraform on Azure.
 
 
-### Define Provider
+### 1- Define Provider
 Check the full file [here](../terraform-vm-code/vm-code/main.tf)
 
 First of all, lets define the provide. 
@@ -21,7 +21,7 @@ provider "azurerm" {
 }
 ```
 
-### Define Resources
+### 2- Define Resources
 
 Check the full file [here](../terraform-vm-code/vm-code/resources.tf)
 
@@ -97,7 +97,7 @@ resource "azurerm_linux_virtual_machine" "vm01" {
 ```
 
 
-### Plan
+### 3- Plan
 
 
 ```
@@ -220,7 +220,7 @@ Terraform will perform the following actions:
 Plan: 5 to add, 0 to change, 0 to destroy.
 ```
 
-### Apply and/ or destroy
+### 4- Apply and/ or destroy
 
 After to check the plan, now we will apply the infra changes
 
@@ -233,3 +233,4 @@ If you want to destroy the infraestructure, it is simple. Execute the command be
 ```
 terraform destroy
 ```
+
