@@ -4,7 +4,7 @@
 ### 1- Define Provider
 Check the full file [here](../terraform-vm-code/vm-code/main.tf)
 
-First of all, lets define the provide. 
+First of all, let's define the provide.
 
 ```
 terraform {
@@ -222,7 +222,7 @@ Plan: 5 to add, 0 to change, 0 to destroy.
 
 ### 4- Apply and/ or destroy
 
-After to check the plan, now we will apply the infra changes
+After to check the plan, we will apply the infra changes
 
 ```
 terraform apply
